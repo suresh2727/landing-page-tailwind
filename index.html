@@ -1,95 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing-page-tailwind</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
     <!-- header -->
-    <div class="bg-black flex p-4 justify-between items-center text-lg">
+    <div class="flex items-center justify-between p-4 text-lg bg-black">
         <!-- left side -->
         <div class="flex items-center">
-            <img src="https://cdn4.iconfinder.com/data/icons/transportation-and-vehicle/128/Transportation_And_Vehicle_3-09-512.png" width="50" alt="rocket img" class="mr-8 hover:rotate-45 transition ease-in duration-500 hover:border-2 border-indigo-100 rounded-lg " >
-            <a href="#" class="text-indigo-100 mr-6 hover:text-indigo-300 text-2xl">Home</a>
-            <a href="#" class="text-indigo-100 hover:text-indigo-300 text-2xl">About</a> 
+            <img src="https://cdn4.iconfinder.com/data/icons/transportation-and-vehicle/128/Transportation_And_Vehicle_3-09-512.png"
+                width="50" alt="rocket img"
+                class="mr-8 transition duration-500 ease-in border-indigo-100 rounded-lg hover:rotate-45 hover:border-2 ">
+            <a href="#" class="mr-6 text-2xl text-indigo-100 hover:text-indigo-300">Home</a>
+            <a href="#" class="text-2xl text-indigo-100 hover:text-indigo-300">About</a>
         </div>
 
         <!-- right-side -->
         <div>
-            <a href="#" class="text-indigo-100 mr-6  hover:text-indigo-300 text-2xl">Login</a>
-            <a href="#" class="text-yellow-800 mr-6 px-3 py-2 bg-yellow-300 rounded-md transition ease-in-out duration-150 hover:text-black hover:bg-yellow-400 mr-2" text-2xl >Sign Up</a>
+            <a href="#" class="mr-6 text-2xl text-indigo-100 hover:text-indigo-300">Login</a>
+            <a href="#"
+                class="px-3 py-2 mr-2 mr-6 text-2xl text-yellow-800 transition duration-150 ease-in-out bg-yellow-300 rounded-md hover:text-black hover:bg-yellow-400">Sign Up</a>
         </div>
 
     </div>
 
 
-        <!-- hero section -->
+    <!-- hero section -->
 
-        <div class="flex justify-between  py-20 px-10 bg-black text-indigo-100">
-            <!-- left-side -->
+    <div class="flex justify-between px-10 py-20 text-indigo-100 bg-black">
+        <!-- left-side -->
 
-            <div class="w-1/2 ml-10">
+        <div class="w-1/2 ml-10">
 
-                <h2 class="text-8xl mb-6 mt-8 font-semibold">Welcome to Moutains</h2>
-                <p class="mb-16 text-2xl">There is a never a sad day here...</p>
+            <h2 class="mt-8 mb-6 font-semibold text-8xl">Welcome to Moutains</h2>
+            <p class="mb-16 text-2xl">There is a never a sad day here...</p>
 
-                <a href="#" class="mr-3 inline-block py-2 px-4 text-2xl bg-gray-700 text-gray-200 rounded-md">Learn More</a>
-                <a href="#" class="inline-block py-2 px-4  text-2xl bg-orange-700 text-orange-200 rounded-md hover:bg-orange-400 transitio ease-linear duration-700 hover:text-white">Get Started</a>
+            <a href="#" class="inline-block px-4 py-2 mr-3 text-2xl text-gray-200 bg-gray-700 rounded-md">Learn More</a>
+            <a href="#"
+                class="inline-block px-4 py-2 text-2xl text-orange-200 duration-700 ease-linear bg-orange-700 rounded-md hover:bg-orange-400 transitio hover:text-white">Get
+                Started</a>
 
-            </div>
-
-            <!-- right-side -->
-
-            <div class="w-1/2">
-                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91dGFpbnMlMjB3aXRoJTIwc25vd3xlbnwwfHwwfHx8MA%3D%3D" alt="Moutains" class="w-full rounded-lg shadow-lg hover:-translate-x-9 hover:-translate-y-5 transition hover:skew-x-3 hover:skew-y-3 hover:scale-105 hover:rotate-3  hover:-skew-y-2 ease-in-out duration-1000 hover:border-solid border-4 border-white hover:shadow-slate-600 shadow-xl"   >
-            </div>
         </div>
 
-        <!-- features section-->
+        <!-- right-side -->
 
-        <div class="flex py-20 px-10 text-center bg-black text-indigo-300">
-            <div  class="mr-4">
-                <img src="https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW91dGFpbnMlMjB3aXRoJTIwc25vd3xlbnwwfHwwfHx8MA%3D%3D" class="w-full rounded-lg mb-6 border-solid border-indigo-300 border-4 hover:scale-105 transition ease-in-out duration-700 hover:shadow-slate-600 shadow-md">
-                <p class="text-xl hover:scale-105 transition ease-in-out duration-700">Snow Peak</p>
-            </div>
-            <div class="mr-4 mt-14 ">
-                
-                <img src="https://plus.unsplash.com/premium_photo-1673240367277-e1d394465b56?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bW91bnRhaW58ZW58MHx8MHx8fDA%3D" alt="" class="w-full rounded-lg mb-6 border-solid border-indigo-300 border-4 hover:scale-105 transition ease-in-out duration-700 hover:shadow-slate-600 shadow-md">
-                <p class="text-xl hover:scale-105 transition ease-in-out duration-700">Water Mirror</p>
-            </div>
-            <div class="mr-4">
-                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fG1vdW50YWlufGVufDB8fDB8fHww" alt="" class="w-full rounded-lg  mb-6 border-solid border-indigo-300 border-4 hover:scale-105 transition ease-in-out duration-700 hover:shadow-slate-600 shadow-md" >
-                <p class="text-xl hover:scale-105 transition ease-in-out duration-700 ">Night Peak</p>
-            </div>
-            <div class="mr-4 mt-14">
-                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fG1vdW50YWlufGVufDB8fDB8fHww" alt="" class="w-full rounded-lg  mb-6  border-solid border-indigo-300 border-4 hover:scale-105 transition ease-in-out duration-700 hover:shadow-slate-600 shadow-md" >
-                <p class="text-xl hover:scale-105 transition ease-in-out duration-700">Valley View</p>
-            </div>
+        <div class="w-1/2">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91dGFpbnMlMjB3aXRoJTIwc25vd3xlbnwwfHwwfHx8MA%3D%3D"
+                alt="Moutains"
+                class="w-full transition duration-1000 ease-in-out border-4 border-white rounded-lg shadow-lg shadow-xl hover:-translate-x-9 hover:-translate-y-5 hover:skew-x-3 hover:skew-y-3 hover:scale-105 hover:rotate-3 hover:-skew-y-2 hover:border-solid hover:shadow-slate-600">
+        </div>
+    </div>
+
+    <!-- features section-->
+
+    <div class="flex px-10 py-20 text-center text-indigo-300 bg-black">
+        <div class="mr-4">
+            <img src="https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW91dGFpbnMlMjB3aXRoJTIwc25vd3xlbnwwfHwwfHx8MA%3D%3D"
+                class="w-full mb-6 transition duration-700 ease-in-out border-4 border-indigo-300 border-solid rounded-lg shadow-md hover:scale-105 hover:shadow-slate-600 ">
+            <p class="text-xl transition duration-700 ease-in-out cursor-not-allowed hover:scale-105">Snow Peak</p>
+        </div>
+        <div class="mr-4 mt-14 ">
+
+            <img src="https://plus.unsplash.com/premium_photo-1673240367277-e1d394465b56?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bW91bnRhaW58ZW58MHx8MHx8fDA%3D"
+                alt=""
+                class="w-full mb-6 transition duration-700 ease-in-out border-4 border-indigo-300 border-solid rounded-lg shadow-md hover:scale-105 hover:shadow-slate-600">
+            <p class="text-xl transition duration-700 ease-in-out hover:scale-105 cursor-progress">Water Mirror</p>
+        </div>
+        <div class="mr-4">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fG1vdW50YWlufGVufDB8fDB8fHww"
+                alt=""
+                class="w-full mb-6 transition duration-700 ease-in-out border-4 border-indigo-300 border-solid rounded-lg shadow-md hover:scale-105 hover:shadow-slate-600">
+            <p class="text-xl transition duration-700 ease-in-out cursor-wait hover:scale-105">Night Peak</p>
+        </div>
+        <div class="mr-4 mt-14">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fG1vdW50YWlufGVufDB8fDB8fHww"
+                alt=""
+                class="w-full mb-6 transition duration-700 ease-in-out border-4 border-indigo-300 border-solid rounded-lg shadow-md hover:scale-105 hover:shadow-slate-600">
+            <p class="text-xl transition duration-700 ease-in-out cursor-move hover:scale-105">Valley View</p>
+        </div>
+    </div>
+
+
+    <!-- Footer section -->
+
+    <div class="flex items-center justify-between p-10 text-indigo-200 bg-black">
+
+        <!-- left-side -->
+        <div class="w-1/2">
+            <h3 class="mb-2 text-xl">Join the Newsletter</h3>
+            <form class="flex">
+                <input type="email"
+                    class="w-full px-4 py-3 font-semibold text-black rounded-l-lg outline-none focus:bg-slate-700"
+                    placeholder="Enter Email" required>
+                <button class="px-8 py-2 text-lg text-black bg-yellow-300 rounded-r-lg">Join</button>
+            </form>
+
         </div>
 
-
-        <!-- Footer section -->
-
-        <div class="p-10 flex justify-between bg-black text-indigo-200 items-center">
-
-            <!-- left-side -->
-            <div class="w-1/2">
-                <h3 class="mb-2 text-xl">Join the Newsletter</h3>
-                <form class="flex">
-                    <input type="email" class="w-full py-3 px-4 font-semibold  focus:bg-black-200 outline-none rounded-l-lg text-black" placeholder="Enter Email" required>
-                <button class="bg-yellow-300 px-8 py-2 text-black text-lg rounded-r-lg">Join</button>
-                </form>
-                
-            </div>
-
-            <!-- right-side -->
-            <div class="mt-6 text-lg">
-                Copyright &copy; Monutain 2023 - Infinity.
-            </div>
+        <!-- right-side -->
+        <div class="mt-6 text-lg">
+            Copyright &copy; Monutain 2023 - Infinity.
         </div>
+    </div>
 
-    
+
 </body>
+
 </html>
